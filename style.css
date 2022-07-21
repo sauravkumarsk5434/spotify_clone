@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: antiquewhite;
+}
+
+.logo {
+  width: 39px;
+  padding: 5px;
+}
+.header1 {
+  background-color: black;
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.header1 a {
+  color: white;
+  padding: 0 12px;
+}
+.header1 span {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.container {
+  height: 70vh;
+  width: 70%;
+  background-color: black;
+  color: beige;
+  display: flex;
+  border-radius: 12px;
+  margin: 10px auto;
+  background-image: url(/bg.jpg);
+  background-size: 100% 100%;
+}
+.bottom {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0;
+  background-color: black;
+  color: aliceblue;
+  height: 100px;
+}
+.bottom input {
+  width: 800px;
+}
+.icons {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.songs{
+    background-color: azure;
+    border-radius: 12px;
+    height: 30px;
+    margin: 12px 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.songs img{
+    margin: 0 12px;
+    width: 28px;
+    border-radius: 34px;
+}
+.songlist h3{
+margin: 12px;
+}
+.songs span{
+    margin: 0 12px;
+    
+}
+.songs i{
+    margin: 0 12px;
+    cursor: pointer;
+}
+.songgif{
+   
+    position: absolute;
+    left: 55vh;
+    
+}
+.songgif img{
+    width: 34px;
+    margin-top: 30px;
+}
